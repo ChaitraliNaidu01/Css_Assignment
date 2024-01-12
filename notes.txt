@@ -1,0 +1,407 @@
+ <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+       .container{
+        width: 334px;
+        height: 1344px;
+        /* background-color: rgb(231, 71, 124); */
+        color: black;
+        border: 2px solid red;
+        /* background-image: url('download.jpg');
+        background-repeat: no-repeat; */
+        /* background-size: 63px 45px; */
+        color: white;
+        /* background-position: center; */
+        background-attachment: fixed;
+        background:pink url('download.jpg') no-repeat scroll top right;
+       }
+</style>
+
+ch-2
+
+  <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+       .items{
+         color: skyblue;
+       }
+
+       ul{
+        background-color: black;
+        color: white;
+       }
+       .img{
+        width: 334px;
+        height: 3344px;
+        background-image: url(download.jpg);
+        background-repeat: no-repeat;
+        background-color: blueviolet;
+        background-size: 341px 341px;
+        background-attachment: fixed;
+       }
+    
+    </style>
+
+    ch-3
+
+     <style>
+      .content{
+        height: 423;
+        width: 345;
+        background: palegoldenrod;
+        margin: 4px;
+        padding:13px;
+        border: 4px solid rebeccapurple;
+        border-width: 4px;
+        border-style: dashed;
+        border-color: brown;
+        border-radius: 9px;
+      }
+
+
+    </style>
+
+    ch-4
+
+     <style>
+        header{
+            height: 74px;
+            background: pink;
+            
+            border: 2px solid black;
+        }
+        .content{
+            background-color: aqua;
+            height: 910px;
+            padding: 16px;
+            margin:45px
+        }
+        footer{ 
+            background-color: black;
+            color: aliceblue;
+            margin: 13px;
+            
+        }
+        .fot{
+            text-align: center;
+        }
+
+
+         <style>
+     .box1{
+         width:431px;
+         height: 34px;
+         background-color: pink;
+         display: block;
+         text-align: center;
+         /* display: none;
+         visibility: hidden; */
+     }
+     .box2{
+      width:431px;
+         height: 34px;
+         background-color: rgb(67, 6, 16);
+         color: aliceblue;
+         display: block;
+     }
+  </style>
+
+
+   <style>
+     p{
+      background-color: red;
+      width: 1134px;
+      height: 625px;
+      color: white;
+      /* text-decoration: underline; */
+      text-transform: capitalize;
+      line-height: 30px;
+      font-size: 23px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+  </style>
+
+
+Ch-5
+
+      .right{
+      background-color: brown;
+      height:367px;
+      width: 50%;
+      display: inline-block;
+     }
+     .left{
+       background-color: pink;
+       height:367px;
+       width: 50%;
+       display: inline-block;
+     }
+  </style>
+
+   <style>
+    ul{
+      background-color: black;
+    }
+    .box {
+      height: 200px;
+      width: 2200px;
+      background-color: pink;
+      position: relative;
+    }
+    .box1{
+      height: 200px;
+      width: 200px;
+      background-color: blueviolet;
+      position: absolute;
+      right: 671px;
+      top:90px;
+      z-index: 0;
+      
+    }
+  </style>
+
+  ch-5 Practice style<style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      display: inline;
+      font-size: 1vw;
+      padding: 0px 15px;
+    }
+
+    header {
+      padding: 25px;
+      background-color: black;
+      color: white;
+      position: sticky;
+      top: 0;
+    }
+    .container{
+       background-color: bisque;
+        min-height: 2333px;
+        position: relative;
+        z-index: 3;
+        
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam dolore dolorem quam eum architecto illum a nam
+    dignissimos voluptatibus nulla, repudiandae minus necessitatibus quas perferendis rerum, harum dolores ullam? Ex
+    animi magnam nobis doloribus?
+  </div>
+
+
+  ch-6
+
+    <style>
+    .box1{
+       height: 234px;
+       width: 345px;
+       background-color: blanchedalmond;
+       float:right;
+
+    }
+    .box2{
+      height: 234px;
+       width: 345px;
+       background-color: chocolate;
+       clear: right;
+       float:right;
+       clear: right;
+       
+    }
+  </style>
+
+  ch-6
+
+   <style>
+    .container{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: aquamarine;
+      height: 100vh;
+      align-items: center;
+      /* align-content: center; */
+    }
+    .box1{
+       height: 234px;
+       /* width: 345px; */
+       background-color: blanchedalmond;
+       float:right;
+       border: 2px solid black;
+       order: 4;
+       /* align-self: flex-end; */
+       flex-grow: 1;
+
+    }
+    .box2{
+      height: 234px;
+       /* width: 345px; */
+       background-color: chocolate;
+       float:right;
+       border: 2px solid black;
+
+       
+    }
+  </style>
+
+  Practice Set-6
+
+   <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      padding: 35px;
+    }
+
+    li {
+      list-style: none;
+      display: inline;
+      padding: 0 25px;
+    }
+
+    header {
+      background-color: black;
+      color: aliceblue;
+    }
+    .left{
+      background-color: rgb(148, 109, 184);
+      height: 80vh;
+      width: 40vw;
+      float: left;
+    }
+    .right{
+      background-color: aquamarine;
+      height: 80vh;
+      width: 40vw;
+      float: right;
+    }
+   
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="right">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ut hic libero odio est saepe
+      necessitatibus aliquam! Commodi, quis cum. In animi non quisquam, nihil accusantium possimus? Deleniti maiores
+      ratione praesentium tempore ad delectus?</div>
+    <div class="left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolore, eum perspiciatis
+      consequatur nulla aliquid delectus fugit eius, facere ut tempora incidunt ullam, exercitationem nemo quidem.
+      Obcaecati ipsum provident minima ab, minus unde placeat.</div>
+  </div>
+
+  Using flex
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      padding: 35px;
+    }
+
+    li {
+      list-style: none;
+      display: inline;
+      padding: 0 25px;
+    }
+
+    header {
+      background-color: black;
+      color: aliceblue;
+    }
+    .left{
+      background-color: rgb(148, 109, 184);
+      height: 80vh;
+      width: 40vw;
+   
+    }
+    .right{
+      background-color: aquamarine;
+      height: 80vh;
+      width: 40vw;
+    
+    }
+    .container{
+      display: flex;
+      justify-content: space-between;
+    }s
+   
+  </style>
+
+  Ch-7 Grid
+
+   <style>
+    .container{
+      display: grid;
+      background-color: blanchedalmond;
+      grid-row-gap: 6px;
+      grid-column-gap: 7px;
+      grid-template-columns: 34px 334px auto ;
+      grid-row: 3px 4px;
+    }
+     .item1{
+      background-color: yellow;
+      border: 2px solid black;
+     }
+   
+  </style>
+
+  Ps=-7
+
+   <style>
+    *{
+      margin:0;
+      padding: 0;
+    }
+      ul{
+         display: inline-grid;
+         grid-template-columns: auto auto auto;
+      }
+      ul li{
+        list-style: none;
+        margin: 0 23px;
+        padding: 22px 0;
+      }
+      header{
+        background-color: cornflowerblue;
+        color: black;
+      }
+  </style>
+
+
+  Ch-8
